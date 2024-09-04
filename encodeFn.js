@@ -30,6 +30,17 @@ const params = [
     amountInWei // Replace with the actual amount in wei (e.g., 1 token with 18 decimals)
 ];
 
+// Select function name
+// const fromContractAddress =  process.env.FROM_CONTRACT_ADDRESS
+// const toContractAddress =  process.env.TO_CONTRACT_ADDRESS
+// const amountInWei = process.env.AMOUNT_IN_WEI
+// const functionName = 'name';
+// const paramTypes = [];
+// const params = [];
+
+
+
+
 
 
 generateFunctionCallData(functionName, paramTypes, params);
