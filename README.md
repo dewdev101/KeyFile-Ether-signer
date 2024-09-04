@@ -1,7 +1,7 @@
 ## node version
  v18.20.4
 
-## Step to run
+## How to generate key file for ether-singer
 
 ## 1. Install node
 ```shell
@@ -18,4 +18,20 @@ PASSWORD=<passwordFile in ether-signer image>
 ## 3. Generate key file
 ```shell
 $ npm start
+```
+
+
+## How to encode function in smart contract
+
+## 1. Prepare data
+```shell
+$ insert  these data
+FROM_CONTRACT_ADDRESS=<your contract address>
+TO_CONTRACT_ADDRESS=<to contract address>
+AMOUNT_IN_WEI=<amount in wei>
+```
+
+## 2. Run encode
+```shell
+$ npm run encode
 ```
