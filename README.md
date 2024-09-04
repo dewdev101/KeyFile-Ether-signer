@@ -23,7 +23,13 @@ $ npm start
 
 ## How to encode function in smart contract
 
-## 1. Prepare data
+
+## 1. Install node
+```shell
+$ npm i
+```
+
+## 2. Prepare data
 ```shell
 $ insert  these data
 FROM_CONTRACT_ADDRESS=<your contract address>
@@ -31,7 +37,7 @@ TO_CONTRACT_ADDRESS=<to contract address>
 AMOUNT_IN_WEI=<amount in wei>
 ```
 
-## 2. Run encode
+## 3. Run encode
 ```shell
 $ npm run encode
 ```
