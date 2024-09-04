@@ -1,13 +1,13 @@
 ## node version
  v18.20.4
 
-## how to run
+## Step to run
 
-## install node
+## 1. Install node
 ```shell
 $ npm i
 ```
-## prepare
+## 2. Prepare
 ```shell
 $ touch .env 
 insert  these data
@@ -15,7 +15,7 @@ METAMASK_PRIVATE_KEY=<your metamask private key>
 PASSWORD=<passwordFile in ether-signer image>
 ```
 
-## generate key file
+## 3. Generate key file
 ```shell
 $ npm start
 ```
