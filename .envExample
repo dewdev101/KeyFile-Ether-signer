@@ -1,0 +1,6 @@
+METAMASK_PRIVATE_KEY=xxxxxxxxxxx
+PASSWORD=xxxxxxxxxxx
+
+FROM_CONTRACT_ADDRESS=xxxxxxxxxxx
+TO_CONTRACT_ADDRESS=xxxxxxxxxxx
+AMOUNT_IN_WEI=xxxxxxxxxxx

@@ -9,6 +9,8 @@ const web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:8590"));
 const privateKey = process.env.METAMASK_PRIVATE_KEY;
 const password =  process.env.PASSWORD; 
 
+// admin => setToken in reward contract
+
 var V3KeyStore = web3.eth.accounts.encrypt(privateKey, password);
 console.log(JSON.stringify(V3KeyStore));
 process.exit();

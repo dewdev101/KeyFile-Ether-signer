@@ -4,7 +4,7 @@
     "description": "A script to encrypt Ethereum private keys using Web3.js",
     "main": "main.js",
     "scripts": {
-        "start": "node main.js",
+        "keyfile": "node main.js",
         "encode":"node encodeFn.js"
     },
     "dependencies": {

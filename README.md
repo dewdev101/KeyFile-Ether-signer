@@ -17,9 +17,8 @@ PASSWORD=<passwordFile in ether-signer image>
 
 ## 3. Generate key file
 ```shell
-$ npm start
+$ npm run keyfile
 ```
-
 
 ## How to encode function in smart contract
 
